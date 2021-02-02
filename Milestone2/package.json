@@ -1,7 +1,7 @@
 {
-  "name": "Milestone1",
+  "name": "Milestone2",
   "version": "1.0.0",
-  "description": "php-ajax-dischi",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "development": "mix",

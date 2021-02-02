@@ -17429,7 +17429,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			return checkDeferredModules();
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkphp_ajax_dischi"] = self["webpackChunkphp_ajax_dischi"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkMilestone1"] = self["webpackChunkMilestone1"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 		
