@@ -35,6 +35,7 @@ Attraverso l’utilizzo di AJAX: al caricamento della pagina ajax chiederà attr
       </div>
     </header>
 
+    <!-- main -->
     <div class="cds-container container">
       <!-- Disco ad esempio -->
       <div class="cd" v-for="album in albums">

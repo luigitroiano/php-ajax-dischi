@@ -1,0 +1,35 @@
+.cds-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px 0;
+  .cd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 200px;
+    padding: 20px;
+    margin: 10px 20px;
+    height: 360px;
+    background: $bg_color_secondary;
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
+    h3 {
+      margin: 20px 0;
+      color: $color_cards_h3;
+      font-size: 22px;
+      text-transform: uppercase;
+    }
+    span.author {
+      color: $color_cards_span;
+      font-size: 20px;
+    }
+    span.year {
+      color: $color_cards_span;
+    }
+  } 
+}
