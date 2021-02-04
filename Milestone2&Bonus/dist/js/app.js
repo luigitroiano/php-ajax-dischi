@@ -10,9 +10,10 @@
 var app = new Vue({
   el: "#root",
   data: {
-    albums: []
+    albums: [],
+    search: ""
   },
-  mounted: function mounted() {
+  created: function created() {
     var _this = this;
 
     axios.get("db.php").then(function (response) {
@@ -21,7 +22,19 @@ var app = new Vue({
       console.log(error);
     });
   },
-  methods: {}
+  computed: {
+    filteredgenre: function filteredgenre() {
+      var _this2 = this;
+
+      return this.albums.filter(function (genere) {
+        if (_this2.search == "All") {
+          return _this2.albums;
+        }
+
+        return genere.genre.match(_this2.search);
+      });
+    }
+  }
 });
 
 /***/ }),
